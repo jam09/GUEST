@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--========== BOX ICONS ==========-->
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+
+    <!--========== tIPOFRACIAS ==========-->
+
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@700&family=Rubik:wght@300&family=Space+Mono:wght@700&display=swap" rel="stylesheet">
+    <!--========== TYPOFRACIAS ==========-->
+
+    <!--========== CSS ==========-->
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Animate css -->
+    <link rel="stylesheet" href="plugins/animate/animate.css">
+    <!-- Slick Carousel -->
+    <link rel="stylesheet" href="plugins/slick/slick.css">
+    <link rel="stylesheet" href="plugins/slick/slick-theme.css">
+    <link rel="stylesheet" href="css/uicons-regular-rounded/uicons-regular-rounded/css/uicons-regular-rounded.css">
+
+    <title>Responsive website food</title>
+</head>
+
+<body>
+
+    <!--========== SCROLL TOP ==========-->
+    <a href="#" class="scrolltop" id="scroll-top">
+        <i class='bx bx-chevron-up scrolltop__icon'></i>
+    </a>
+
+    <!--========== HEADER ==========-->
+    <header class="l-header" id="header">
+        <nav class="nav bd-container">
+            <a href="#" class="nav__logo">Rekado</a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="index.html" class="nav__link active-link">Inicio</a></li>
+                    <li class="nav__item"><a href="#menu" class="nav__link">Menu</a></li>
+
+                    <!-- <li class="button-nav" class="nav__item"><a href="#contact" class="nav__link">Ingresar</a></li> -->
+
+                    <li>
+
+                        <li class="dropdown search dropdown-slide">
+                            <a href="#!" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown"> <i class='fi-rr-search'></i></a>
+                            <ul class="dropdown-menu search-dropdown">
+                                <li>
+                                    <form action="post"><input type="search" id="search" class="form-control" placeholder="Search..."></form>
+                                </li>
+                            </ul>
+                        </li>
+
+
+
+                    </li>
+
+                    <li>
+
+                        <li class="dropdown cart-nav dropdown-slide">
+                            <a href="#!" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown"><i
+                                    class="fi-rr-shopping-cart"></i></a>
+                            <div class="dropdown-menu cart-dropdown">
+                                <!-- Cart Item -->
+
+                                <!-- / Cart Item -->
+                                <!-- Cart Item -->
+
+
+                                <div class="menuu__content">
+                                    <div>
+                                        <img src="images/productos/10.png" alt="" class="menuu__img">
+                                    </div>
+                                    <div>
+                                        <h3 class="menuu__name">Barbecue salad</h3>
+                                        <span class="menuu__detail">Delicious dish</span>
+                                        <br>
+                                        <span class="menuu__preci">$22.00</span>
+                                    </div>
+
+                                    <a href="#" class="button menuu__button"><i class="fi-rr-cross"></i></a>
+                                </div>
+
+                                <div class="menuu__content">
+                                    <div>
+                                        <img src="images/productos/10.png" alt="" class="menuu__img">
+                                    </div>
+                                    <div>
+                                        <h3 class="menuu__name">Barbecue salad</h3>
+                                        <span class="menuu__detail">Delicious dish</span>
+                                        <br>
+                                        <span class="menuu__preci">$22.00</span>
+                                    </div>
+
+                                    <a href="#" class="button menuu__button"><i class="fi-rr-cross"></i></a>
+                                </div>
+                                <div class="menuu__content">
+                                    <div>
+                                        <img src="images/productos/10.png" alt="" class="menuu__img">
+                                    </div>
+                                    <div>
+                                        <h3 class="menuu__name">Barbecue salad</h3>
+                                        <span class="menuu__detail">Delicious dish </span>
+                                        <br>
+                                        <span class="menuu__preci">$22.00</span>
+                                    </div>
+
+                                    <a href="#" class="button menuu__button"><i class="fi-rr-cross"></i></a>
+                                </div>
+                                <!-- / Cart Item -->
+
+                                <div class="cart-summary">
+                                    <span>Total</span>
+                                    <span class="total-price">$1799.00</span>
+                                </div>
+                                <ul class="text-center cart-buttons">
+                                    <li><a href="cart.html" class="button">View Cart</a></li>
+                                    <li><a href="checkout.html" class="button">Checkout</a></li>
+                                </ul>
+
+                            </div>
+
+                        </li>
+                    </li>
+
+
+
+
+                    <li><i class='bx bx-moon change-theme' id="theme-button"></i></li>
+                </ul>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+        </nav>
+    </header>
+
+
+    <!-- <div class="hero-slider">
+        <div class="slider-item th-fullpage hero-area" style="background-image: url(images/slider/1x/s-6.png);">
+            <div class="home__container bd-container bd-grid">
+
+                <div class="row">
+                    <div class="col-lg-8 text-center">
+                        <p data-duration-in=".3" data-animation-in="fadeInUp" data-delay-in=".1">REKADO</p>
+                        <h1 data-duration-in=".3" data-animation-in="fadeInUp" data-delay-in=".5">mensajeria a distancia</h1>
+                        <a data-duration-in=".3" data-animation-in="fadeInUp" data-delay-in=".8" class="button" href="shop.html">Ordena ahora</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="slider-item th-fullpage hero-area" style="background-image: url(images/slider/1x/s-7-2.png);">
+            <div class="home__container bd-container bd-grid">
+                <div class="row">
+                    <div class="col-lg-8 text-left">
+                        <p data-duration-in=".3" data-animation-in="fadeInUp" data-delay-in=".1">distancia!</p>
+                        <h1 data-duration-in=".3" data-animation-in="fadeInUp" data-delay-in=".5">un camino a la <br> comida y felicidad.</h1>
+                        <a data-duration-in=".3" data-animation-in="fadeInUp" data-delay-in=".8" class="button" href="shop.html">Shop Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="slider-item th-fullpage hero-area" style="background-image: url(images/slider/1x/s-7-3.png);">
+            <div class="home__container bd-container bd-grid">
+                <div class="row">
+                    <div class="col-lg-8 text-left">
+                        <p data-duration-in=".3" data-animation-in="fadeInUp" data-delay-in=".1">distancia!</p>
+                        <h1 data-duration-in=".3" data-animation-in="fadeInUp" data-delay-in=".5">un camino a la <br> comida y felicidad.</h1>
+                        <a data-duration-in=".3" data-animation-in="fadeInUp" data-delay-in=".8" class="button" href="shop.html">Shop Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div> -->
+
+    <main class="l-main">
+
+        <!--========== HOME ==========-->
+        <section class="home" id="home">
+            <div class="home__container bd-container bd-grid">
+                <div class="home__data">
+                    <h1 class="home__titlee">Bienvenido</h1>
+                    <h2 class="home__subtitle">Tienda de<br> paco.</h2>
+                    <a href="#menu" class="button">Ver Menu</a>
+                </div>
+                <div class="imgzize">
+                    <img src="images/productos/about-img.png" alt="" class="home__img">
+                </div>
+
+            </div>
+        </section>
+
+        <!--========== MENU ==========-->
+        <section class="menu section bd-container" id="menu">
+            <span class="section-subtitle">Special</span>
+            <h2 class="section-title">Menú de la semana</h2>
+
+            <div class="menu__container bd-grid">
+                <div class="menu__content">
+                    <img src="images/productos/slider-img2.png" alt="" class="menu__img">
+                    <h3 class="menu__name">Barbecue salad</h3>
+                    <span class="menu__detail">Delicious dish</span>
+                    <span class="menu__preci">$22.00</span>
+                    <a href="#" class="button menu__button"><i class='bx bx-cart-alt'></i></a>
+                </div>
+
+                <div class="menu__content">
+                    <img src="images/productos/slider-img3.png" alt="" class="menu__img">
+                    <h3 class="menu__name">Salad with fish</h3>
+                    <span class="menu__detail">Delicious dish</span>
+                    <span class="menu__preci">$12.00</span>
+                    <a href="#" class="button menu__button"><i class='bx bx-cart-alt'></i></a>
+                </div>
+
+                <div class="menu__content">
+                    <img src="images/productos/slider-img2.png" alt="" class="menu__img">
+                    <h3 class="menu__name">Spinach salad</h3>
+                    <span class="menu__detail">Delicious dish</span>
+                    <span class="menu__preci">$9.50</span>
+                    <a href="#" class="button menu__button"><i class='bx bx-cart-alt'></i></a>
+                </div>
+                <div class="menu__content">
+                    <img src="images/productos/slider-img3.png" alt="" class="menu__img">
+                    <h3 class="menu__name">Salad with fish</h3>
+                    <span class="menu__detail">Delicious dish</span>
+                    <span class="menu__preci">$12.00</span>
+                    <a href="#" class="button menu__button"><i class='bx bx-cart-alt'></i></a>
+                </div>
+                <div class="menu__content">
+                    <img src="images/productos/slider-img2.png" alt="" class="menu__img">
+                    <h3 class="menu__name">Barbecue salad</h3>
+                    <span class="menu__detail">Delicious dish</span>
+                    <span class="menu__preci">$22.00</span>
+                    <a href="#" class="button menu__button"><i class='bx bx-cart-alt'></i></a>
+                </div>
+                <div class="menu__content">
+                    <img src="images/productos/slider-img2.png" alt="" class="menu__img">
+                    <h3 class="menu__name">Spinach salad</h3>
+                    <span class="menu__detail">Delicious dish</span>
+                    <span class="menu__preci">$9.50</span>
+                    <a href="#" class="button menu__button"><i class='bx bx-cart-alt'></i></a>
+
+                </div>
+                <div class="menu__content">
+                    <img src="images/productos/slider-img2.png" alt="" class="menu__img">
+                    <h3 class="menu__name">Barbecue salad</h3>
+                    <span class="menu__detail">Delicious dish</span>
+                    <span class="menu__preci">$22.00</span>
+                    <a href="#" class="button menu__button"><i class='bx bx-cart-alt'></i></a>
+                </div>
+                <div class="menu__content">
+                    <img src="images/productos/slider-img2.png" alt="" class="menu__img">
+                    <h3 class="menu__name">Spinach salad</h3>
+                    <span class="menu__detail">Delicious dish</span>
+                    <span class="menu__preci">$9.50</span>
+                    <a href="#" class="button menu__button"><i class='bx bx-cart-alt'></i></a>
+
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!--========== FOOTER ==========-->
+    <footer class="footer section bd-container">
+
+
+        <p class="footer__copy">&#169; 2020 Guestvox. All right reserved</p>
+    </footer>
+
+    <!--========== SCROLL REVEAL ==========-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--========== MAIN JS ==========-->
+    <!-- Main jQuery -->
+    <script src="plugins/jquery/dist/jquery.min.js"></script>
+    <!-- Bootstrap 3.1 -->
+
+    <script src="plugins/bootstrap/js/bootstrap.min.js"></script>
+    <!-- Bootstrap Touchpin -->
+    <script src="plugins/bootstrap-touchspin/dist/jquery.bootstrap-touchspin.min.js"></script>
+    <!-- Instagram Feed Js -->
+    <script src="plugins/instafeed/instafeed.min.js"></script>
+    <!-- Video Lightbox Plugin -->
+    <script src="plugins/ekko-lightbox/dist/ekko-lightbox.min.js"></script>
+    <!-- Count Down Js -->
+    <script src="plugins/syo-timer/build/jquery.syotimer.min.js"></script>
+
+    <!-- slick Carousel -->
+    <script src="plugins/slick/slick.min.js"></script>
+    <script src="plugins/slick/slick-animation.min.js"></script>
+
+    <!-- Google Mapl -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCC72vZw-6tGqFyRhhg5CkF2fqfILn2Tsw"></script>
+    <script type="text/javascript" src="plugins/google-map/gmap.js"></script>
+    <script src="js/menu.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
